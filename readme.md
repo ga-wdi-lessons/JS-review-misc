@@ -2,11 +2,11 @@
 
 ## Learning Objectives
 
-- `.each`
-- keypress events
-- timing functions
-- debugging
-- cash register
+- Leverage the `.each` in jQuery to iterate through jQuery objects
+- use the event object to trigger events based on specific keys being pressed
+- use timing functions to execute JS code at intervals or at a delay
+- Identify common errors in JS
+- Seek and destroy these errors
 
 ## Framing
 We had a bunch of stuff thrown at us yesterday. It's a whole lot. It's ok to not fully understand it today. We'll be covering some new content that we didn't quite get to in the last two lessons. Additionally we'll also talk about debugging and some common best practices. Let's get to some stuff that we weren't able to cover yesterday.
