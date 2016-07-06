@@ -165,6 +165,7 @@ If you can't fix an error within a reasonable amount of time &mdash; for instanc
 ...turn to Google. Definitely do NOT try to slog through minified code.
 
 ## Google Fu
+This is a skill, and a valuable one. Even if you *think* you're good at it, you'll get better. It takes practice and each day you'll get progressively better at crushing those errors.
 
 Let's say we get the following error in the console...
 
