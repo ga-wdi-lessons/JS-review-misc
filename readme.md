@@ -1,4 +1,4 @@
-# Misc JS Schtuff & Debugging & Review
+# Misc JS Schtuff & Debugging
 
 ## Learning Objectives
 
@@ -18,10 +18,6 @@ We had a bunch of stuff thrown at us yesterday. It's a whole lot. It's ok to not
 ## Key Events
 
 [Go here for details on this part of the lesson](https://github.com/ga-wdi-lessons/js-events-callbacks#key-events-445---500-15-minutes)
-
-## Timing Functions
-
-[Go here for details on this part of the lesson](https://github.com/ga-wdi-lessons/js-events-callbacks#timing-functions-420---430-10-minutes)
 
 ## Debugging
 
