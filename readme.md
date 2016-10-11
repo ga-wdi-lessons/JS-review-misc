@@ -79,13 +79,6 @@ Here's an example of catching an error:
 </html>
 ```
 
-The result:
-
-```
-Oops! There was an error. It says: Oh, noes.
-Such is life.
-```
-
 This time the `console.log` *does* happen. When you "catch" an error Javascript does whatever you tell it to do in response to the error, and then keeps on going. When you don't catch an error, Javascript stops.
 
 Javascript is intentionally "trying" some code, and if the code throws an error, Javascript is waiting to "catch" it.
