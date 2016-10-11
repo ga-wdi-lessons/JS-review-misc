@@ -24,15 +24,12 @@ We had a bunch of stuff thrown at us yesterday. It's a whole lot. It's ok to not
 
 This next portion of the class is about Javascript errors and what to do when you get one. We're only going to go over the parts that we're pertinent for useful debugging, but if you'd like to view the lesson plan in its entirety, look [here](https://github.com/ga-wdi-lessons/js-debugging)
 
-### Throwing An Error
+### Errors
 
 Errors don't just happen. Chrome doesn't just "break". In fact, it's not Chrome that's throwing the error at all: it's Javascript.
 
 Whenever you run into an error, it's because somewhere in the code you're running or in Javascript's source code there's a line that says, "When this happens, throw an error."
 
-Let's see how to throw an error. **Please close your computers and just watch me.** We're asking you to do this because we don't want anyone to worry about throwing custom errors when working on Javascript projects in this class. We're showing this to you simply so you know what "magic" is going on under the surface.
-
-Here's a piece of HTML/JS that "throws" an error...
 
 ```html
 <!DOCTYPE html>
@@ -40,7 +37,7 @@ Here's a piece of HTML/JS that "throws" an error...
 <head>
   <title>JS Errors</title>
   <script>
-  throw(new Error("Oh, noes."));
+  bar
   console.log("Such is life.");
   </script>
 </head>
