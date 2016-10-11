@@ -4,7 +4,6 @@
 
 - Leverage the `.each` in jQuery to iterate through jQuery objects
 - use the event object to trigger events based on specific keys being pressed
-- use timing functions to execute JS code at intervals or at a delay
 - Identify common errors in JS
 - Seek and destroy these errors
 
@@ -72,9 +71,9 @@ Here's an example of catching an error:
   <title>JS Errors</title>
   <script>
   try{
-    throw(new Error("Oh, noes."));
+    bar
   }catch(err){
-    console.log("Oops! There was an error. It says: " + err.message);
+    console.log("This is the " + err);
   }
   console.log("Such is life.");
   </script>
@@ -204,13 +203,24 @@ If the answer doesn't look promising, go to the next one. Repeat until the answe
 
 If none of the answers are promising, go on to the next thing that turned up on Google.
 
-You can get [badges](stackoverflow.com/help/badges) and [special privileges](stackoverflow.com/help/privileges) on Stack Overflow by asking good questions and giving good answers! I'm at a measly 106 you can easily surpass me!
+You can get [badges](stackoverflow.com/help/badges) and [special privileges](stackoverflow.com/help/privileges) on Stack Overflow by asking good questions and giving good answers!
 
 ## Instructors
 
 Failing all that, ask an instructor. Generally the first question we'll ask *you* is, "Did you get an error?" Having an error message makes things *much* easier to fix. We likely don't need to know anything at all about your app to fix the problem... but would love to learn about it if you have the time! :)
 
-## We Do - Cash Register
+## You Do - Cash Register
 
 Enough about errors, let's do an exercise to end the day.
 Clone [this repo](https://github.com/ga-wdi-exercises/cash-register)
+
+## Solving Problems
+Break down the problem into smaller steps. In the case of Cash Register, your ultimate goal is to create an app where the user can get a total of the amounts they're inputting displayed and also have the amounts shown in the register.
+
+How can we break this in to smaller steps?
+
+1. Let's make sure of code executes only when the user submit the form.
+2. Let's capture the amount the user inputs.
+...
+
+## (Bonus) You Do: Timer JS [TimerJS](https://github.com/ga-wdi-exercises/timer_js)
